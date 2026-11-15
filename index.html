@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elisha Abraham | Healthcare and research data analyst</title>
+  <meta name="description" content="Elisha Abraham is a healthcare and research data analyst. Seven end-to-end projects in SQL, Python, SPSS, Power BI and Excel, each with reproducible code and independently checked numbers.">
+  <meta property="og:title" content="Elisha Abraham | Healthcare and research data analyst">
+  <meta property="og:description" content="Seven end-to-end data analysis projects in SQL, Python, SPSS, Power BI and Excel, each with reproducible code and independently checked numbers.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://elisha-abraham.github.io/images/elisha-abraham.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="name" href="#home">Elisha Abraham</a>
+    <nav aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img src="images/elisha-abraham.jpg" alt="Elisha Abraham" width="240" height="240">
+      <div>
+        <p class="eyebrow">Healthcare and research data analyst</p>
+        <h1>I turn health and business data into answers people can act on, and I show my working.</h1>
+        <p class="lead">I come from nursing, where I am in the final year of my degree, and I learned analysis by doing it: survey research in SPSS first, then SQL, Python, Power BI and Excel. Every project below starts from raw data anyone can obtain, ends in a plain answer, and can be re-run by anyone from the code in its repository.</p>
+        <p class="links">
+          <a class="button" href="https://github.com/elisha-abraham">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/elisha-abraham-a90569352">LinkedIn</a>
+          <a class="button primary" href="mailto:elishaabraham25@gmail.com">Email me</a>
+        </p>
+        <p class="note">Open to remote data analyst roles and freelance analysis projects.</p>
+      </div>
+    </section>
+
+    <section class="principles" aria-label="How I work">
+      <div>
+        <h2>The question comes first</h2>
+        <p>Each project opens with one question and answers it in the first paragraph, with the numbers that matter and what I would do about them.</p>
+      </div>
+      <div>
+        <h2>The numbers are checked twice</h2>
+        <p>Results are recomputed independently, usually in a second tool. One project matches on 1,348 figures, another on 1,297.</p>
+      </div>
+      <div>
+        <h2>The limits are stated</h2>
+        <p>Every write-up says what the data cannot show, so nobody acts on more than the evidence supports.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section">Projects</h2>
+      <div class="grid">
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/hospital-readmissions-sql"><img src="images/readmissions.png" alt="Column chart: 30-day readmission rate rises from 8.6% for patients with no inpatient stay in the previous year to 37.1% for those with five or more." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">SQL · MySQL 8</p>
+            <h3><a href="https://github.com/elisha-abraham/hospital-readmissions-sql">Hospital readmissions among patients with diabetes</a></h3>
+            <p class="question">Which patients come back within 30 days, and where should follow-up effort go first?</p>
+            <p>101,766 hospital stays, from raw file to audited data model to a risk score tested on patients it was not built on. 4.5% of patients account for half of all 30-day readmissions, and a five-item score sorts discharges into tiers from 6% to 27%.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/nigeria-healthcare-access-spss"><img src="images/healthcare-access.png" alt="Bar chart with confidence intervals: share of adults who went without medical care several times or more, from 73.8% in the North East to 35.7% in the South West." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">SPSS · Complex Samples</p>
+            <h3><a href="https://github.com/elisha-abraham/nigeria-healthcare-access-spss">Going without medical care in Nigeria</a></h3>
+            <p class="question">Who goes without care, and what happens to those who reach a public clinic?</p>
+            <p>A national survey of 1,600 adults analysed for its sample design. The public file has no cluster numbers, so I rebuilt and verified them. 57.5% went without care; it follows poverty and place, not sex or age.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/undiagnosed-diabetes-python"><img src="images/diabetes.png" alt="Chart of the share of US adults by glycaemic status, including diagnosed and undiagnosed diabetes." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">Python · survey statistics</p>
+            <h3><a href="https://github.com/elisha-abraham/undiagnosed-diabetes-python">Undiagnosed diabetes in US adults</a></h3>
+            <p class="question">How many adults have diabetes without knowing it, and which screening rule finds them?</p>
+            <p>NHANES 2021 to 2023 with design-based statistics written from first principles and checked against statsmodels. 2.3% of adults, 5.5 million people, are undiagnosed; the standard screening rule reaches 68% of them.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/headline-ab-tests-python"><img src="images/ab-tests.png" alt="Histogram of p-values from 4,850 A/B tests: 45% fall below 0.05, far more than chance alone would give." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">Python · experimentation</p>
+            <h3><a href="https://github.com/elisha-abraham/headline-ab-tests-python">What 27,000 headline experiments say about A/B testing</a></h3>
+            <p class="question">How often is there a real winner, and how much of a win is luck?</p>
+            <p>Findings were made on one part of the data, written down, then tested once on the rest. A winner measured at +30% is worth about +22%, and all seven predicted headline patterns held on new tests.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/customer-retention-sql"><img src="images/retention.png" alt="Line chart of monthly revenue over two years, peaking each November at about 1.4 million pounds." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">SQL · MySQL 8</p>
+            <h3><a href="https://github.com/elisha-abraham/customer-retention-sql">Customer retention and value at a UK online retailer</a></h3>
+            <p class="question">Do customers come back, and which ones does the business depend on?</p>
+            <p>1,067,371 invoice lines through cohorts, time to second order and RFM segments. The top tenth of customers bring in 63.2% of revenue, and 69.7% of new customers order again within a year.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/nigeria-maternal-child-health-powerbi"><img src="images/nigeria-mch.png" alt="Power BI report page comparing Nigerian states on delivery in a health facility." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">Power BI · DAX</p>
+            <h3><a href="https://github.com/elisha-abraham/nigeria-maternal-child-health-powerbi">Maternal and child health across Nigeria's states</a></h3>
+            <p class="question">Where are mothers and children best and worst served?</p>
+            <p>Four rounds of Demographic and Health Surveys in one report. 43.3% of births were in a health facility in 2024, from 97.0% in Imo to 8.8% in Kebbi.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/elisha-abraham/hr-attrition-dashboard-excel"><img class="crop" src="images/attrition.png" alt="Excel dashboard of employee attrition with filters, headline figures, six charts and a table of groups to watch." loading="lazy"></a>
+          <div class="body">
+            <p class="tags">Excel · formulas</p>
+            <h3><a href="https://github.com/elisha-abraham/hr-attrition-dashboard-excel">Employee attrition dashboard</a></h3>
+            <p class="question">Who is leaving, why, and what is it costing?</p>
+            <p>An interactive dashboard where every number is a live formula and the workbook tests itself. A quarter of the "attrition" was dismissals, and overtime staff leave at 30.5% against 10.4%.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="research">
+      <h2 class="section">Research</h2>
+      <div class="columns">
+        <div>
+          <h3>Research analysis</h3>
+          <p>Undergraduate research assistant in the Department of Nursing Science, University of Ilorin, since 2024. I clean and analyse data for health and nursing research in SPSS: survey and questionnaire studies, from data entry and coding to tests, tables and the written results.</p>
+        </div>
+        <div>
+          <h3>Publication</h3>
+          <p>Anyebe, E. E., Hamzat, A. T., Madu, T. N., Ejodkun, A., Omitogun, E. O., &amp; Abraham, E. (2026). Compassion fatigue and coping strategies among nurses in a tertiary hospital in North-Central Nigeria: a facility-based cross-sectional study. <em>The Nursing Scope</em>, 9(2), 145–164. <a href="https://doi.org/10.59073/thenursingscope92/145-164">doi.org/10.59073/thenursingscope92/145-164</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section">Skills and training</h2>
+      <div class="columns three">
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>SQL (MySQL 8): window functions, CTEs, data modelling</li>
+            <li>Python: pandas, numpy, statsmodels, matplotlib</li>
+            <li>SPSS: syntax, Complex Samples, scale reliability</li>
+            <li>Power BI: data modelling and DAX</li>
+            <li>Excel: formula-driven models and dashboards</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Methods</h3>
+          <ul>
+            <li>Data auditing and cleaning with a written trail</li>
+            <li>Survey analysis: weights, clusters, design effects</li>
+            <li>Regression, including logistic and Poisson models</li>
+            <li>Experiments: power, false discoveries, the winner's curse</li>
+            <li>Cohorts, retention and customer segments</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Training</h3>
+          <ul>
+            <li>Bachelor of Nursing Science, University of Ilorin (final year)</li>
+            <li>Data Analyst programme, The Data Immersed (2026)</li>
+            <li>Data Analysis training, VextorHub (2025)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section">Contact</h2>
+      <p>The quickest way to reach me is email: <a href="mailto:elishaabraham25@gmail.com">elishaabraham25@gmail.com</a>. I am also on <a href="https://www.linkedin.com/in/elisha-abraham-a90569352">LinkedIn</a> and <a href="https://github.com/elisha-abraham">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Elisha Abraham · Ilorin, Nigeria · Every project on this page links to its code and data source.</p>
+  </footer>
+</body>
+</html>
